@@ -30,11 +30,12 @@
       },
       "package": "app.rork.paint_match_notebook",
       "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.VIBRATE",
-        "INTERNET"
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -58,6 +59,15 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "owner": "robert_castagna",
+    "extra": {
+      "router": {
+        "origin": "https://rork.com/"
+      },
+      "eas": {
+        "projectId": "9821ddb4-cca5-45b0-a3a1-38b73e0b6fc8"
+      }
     }
   }
 }
