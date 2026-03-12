@@ -160,7 +160,10 @@
         "eslint-config-expo": "~10.0.0",
         "typescript": "~5.9.2"
       },
-      "private": true
+      "private": true,
+      "overrides": {
+        "expo-location": "~19.0.8"
+      }
     },
     "eas.json": {
       "cli": {
